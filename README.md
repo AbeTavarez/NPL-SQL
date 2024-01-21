@@ -35,3 +35,12 @@ Previous Models:
     - Presence Penalty:
 
 ## Notes
+
+### Steps
+ 1. Setup OpenAI API Key.
+ 2. Read CSV file.
+ 3. Create an in-memory SQL database and load the csv data.
+ 4. Work on the Prompt Engineering using the user prompt.
+ 5. Pass the created prompt to the OpenAI API and the configuration.
+ 6. Handle the response from OpenAI API, to just get the actual SQL query.
+ 7. Run the final SQL Query on the database
